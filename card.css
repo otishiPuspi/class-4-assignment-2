@@ -2,24 +2,19 @@
   width: 100px;
   height:100px;
 }
-.service-card .card-body{
-  width:300px;
-  margin:10px;
-  box-sizing:border-box;
-  box-shadow: 1px 2px 4px pink;
-}
+
 
 .container{
   display:inline-block;
   flex-wrap: wrap;
- 
   width:400px;
   height:400px;
-  background-color: rgb(223, 30, 194);
-  border:rgb(255, 205, 244) solid 3px;
+  background-color:bisque;
+  border:black solid 3px;
   border-radius: 5px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-
+  box-shadow: 0 8px 20px red;
+  vertical-align: top;
+  margin: 0px;
 }
 
 .img-div{
@@ -30,7 +25,7 @@
 }
 
 .align p{
-color:aqua;
+color:blue;
 
 }
 
@@ -48,5 +43,20 @@ color:aqua;
   }
   .btn:hover,.btn:link {
     background-color:darkblue;
+  }
+
+  h1{
+    background-color:darkcyan;
+    padding:10px 10px;
+  }
+
+  h3{
+    color:brown;
+    font-size:20px;
+  
+  }
+
+  span{
+    font-size: 20px;
   }
 
