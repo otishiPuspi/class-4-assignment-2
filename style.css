@@ -1,0 +1,135 @@
+/* Reset & Basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica', sans-serif;
+}
+
+body {
+  background: #f0f3f8;
+  color: #333;
+}
+
+.pricing-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #222;
+}
+
+/* Cards Layout */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* Individual Card */
+.pricing-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 35px 25px;
+  width: 300px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Popular Card Ribbon */
+.popular-card {
+  border: 2px solid #ff6a00;
+  background: linear-gradient(145deg, #fff7f0, #ffe8d1);
+}
+
+.ribbon {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: #ff6a00;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  transform: rotate(-15deg);
+  border-radius: 5px;
+}
+
+/* Plan Titles & Prices */
+.plan-title {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+.plan-price {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.plan-price .currency {
+  font-size: 1.2rem;
+  vertical-align: top;
+  color: #ff6a00;
+}
+
+.plan-price .period {
+  font-size: 1rem;
+  color: #777;
+  margin-left: 5px;
+}
+
+/* Features List */
+.features-list {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.features-list li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.feature-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #ff6a00;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Subscribe Button */
+.btn-subscribe {
+  background: #ff6a00;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-subscribe:hover {
+  background: #e05500;
+  transform: scale(1.05);
+}
+
